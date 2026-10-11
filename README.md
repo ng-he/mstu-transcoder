@@ -6,3 +6,9 @@ a placeholder so the pipeline it belongs to can be sketched out.
 ```sh
 ./build.sh
 ```
+
+```sh
+./test.sh
+```
+
+Which is what the center repository calls to test this one.
