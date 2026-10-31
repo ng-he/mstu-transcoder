@@ -1,0 +1,12 @@
+[package]
+name = "mstu-transcoder"
+version = "0.1.0"
+edition = "2024"
+
+[lib]
+crate-type = ["cdylib", "rlib"]
+
+[dependencies]
+
+# The SDK a plugin is written against, ready for when this one is.
+mstu-sdk = "0.1"
